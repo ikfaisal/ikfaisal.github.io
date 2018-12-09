@@ -6,5 +6,4 @@ categories: jekyll hello
 author: "Ibrahim Faisal"
 permalink: /:categories
 ---
-
 Hello, World!
