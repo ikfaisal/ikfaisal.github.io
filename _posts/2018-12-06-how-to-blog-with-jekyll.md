@@ -56,5 +56,5 @@ Voila! You have your own blog published to the world.
 
 Happy Blogging!
 
-[1] https://pages.github.com/
-[2] https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB
+1) [Github Official Page](https://pages.github.com/)
+2) [Tutorial](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)

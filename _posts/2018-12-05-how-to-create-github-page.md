@@ -42,6 +42,6 @@ git commit -m 'Hello, World!'
 git push
 {% endhighlight %}
 
-Browse to https://UserName.github.io
+Browse [here](https://UserName.github.io) to view your site.
 
 Voila! You have your own site.
