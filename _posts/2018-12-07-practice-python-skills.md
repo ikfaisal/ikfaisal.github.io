@@ -1,11 +1,8 @@
 ---
-title:  "Practice Python Skills"
-categories: generalassembly python
-permalink: /:categories
+title:  "Project: Pokemon Stay"
+categories: generalassembly python project
 ---
-
 ![image tooltip here](http://imgur.com/1ZcRyrc.png){:height="36px" width="36px"}
-
 ---
 
 # Project 1

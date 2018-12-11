@@ -1,7 +1,6 @@
 ---
-title:  "How to Create GitHub Page"
+title:  "How To: Create GitHub Page"
 categories: githubpage howto
-permalink: /:categories
 ---
 
 Head over to GitHub and create a new repository named username.github.io,

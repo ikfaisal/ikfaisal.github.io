@@ -1,7 +1,6 @@
 ---
-title:  "How to Blog With Jekyll"
+title:  "How To: Blog With Jekyll"
 categories: jekyll howto
-permalink: /:categories
 ---
 
 Open GitBash. Check whether you have Ruby installed in your machine or not.
