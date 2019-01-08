@@ -29,6 +29,8 @@ In this lesson we will be constructing a simple linear regression. Included in t
 
 **Load the data using pandas.**
 
+[Download Data From Here](https://github.com/ikfaisal/linear-regression/blob/master/DataSets/housing-data.csv)
+
 
 ```python
 house_csv = './datasets/housing-data.csv'
@@ -282,3 +284,7 @@ plot_regression(sqft, price, b0, b1, withResudals=True)
 
 
 ![png](/img/output_13_0.png)
+
+---
+
+[Jupyter Notebook](https://github.com/ikfaisal/linear-regression/blob/master/LinearRegression.ipynb)
