@@ -89,11 +89,11 @@ display(out)
 
 When user select object variable:
 
-![Image](/img/InterActiveEDAObject.png)
+![Image](/img/InterActiveEDAObject.PNG)
 
 When user select numeric variable:
 
-![Image](/img/InterActiveEDANumeric.png)
+![Image](/img/InterActiveEDANumeric.PNG)
 
 **Happy Exploring!**
 
