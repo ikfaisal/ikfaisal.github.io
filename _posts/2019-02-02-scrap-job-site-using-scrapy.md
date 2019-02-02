@@ -232,7 +232,7 @@ It looks like my spider is ready to scrap some data.
 The simplest way to store the scraped data is by using Feed exports, with the following command:
 
 ```
-scrapy crawl quotes -o quotes.json
+scrapy crawl datasciencespider -o datasciencejobs.json
 ```
 
 I have to go to the folder where scrapy.cfg file is available and execute above command. Yeah, it's scrapping jobs.
