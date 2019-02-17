@@ -1,5 +1,5 @@
 ---
-title:  "Create A Simple Web Application & Deploy In Herokuy"
+title:  "Create A Simple Web Application & Deploy In Heroku"
 ---
 
 In this blog I'll create a simple hello world application and deploy that application to heroku.
