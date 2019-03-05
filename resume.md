@@ -3,7 +3,7 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-5/64 Macquarie Road, Ingleburn  <br />
+Sydney, Australia  <br />
 0420 428 160  <br />
 [ikfaisal@gmail.com](ikfaisal@gmail.com)  <br />
 [LinkedIn](http://www.linkedin.com/in/ikfaisal)
