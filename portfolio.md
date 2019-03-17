@@ -16,13 +16,13 @@ predicting their behaviors, proposing better options and opportunities to custom
 ## Machine Learning Process
 ---
 
-![](method.png)
+![](/img/method.png)
 
 ##  Data Gathering
 ---
 I have used data of Olist, an e-commerce site of Brazil.
 
-![](orm.png)
+![](/img/orm.png)
 
 I got the data in 9 different csv. Then I loaded them in SQL Server. Where I have done my initial cleaning, removed null values, joined them together and prepare a final dataset to explore more.
 
@@ -39,19 +39,19 @@ While exploring the data my focus as mainly in
 
 80% revenue are coming from big cities.
 
-![](revenueperstate.png)
+![](/img/revenueperstate.png)
 
 But interestingly average freight values are higher in remote states.
 
-![](avgfrgtperstate.png)
+![](/img/avgfrgtperstate.png)
 
 This also affect the reviews in those areas.
 
-![](reviewscore.png)
+![](/img/reviewscore.png)
 
 There are products which people tends to buy again and again.
 
-![](product.png)
+![](/img/product.png)
 
 ## RFM Analysis
 ---
@@ -63,11 +63,11 @@ RFM analysis is a customer segmentation technique that uses past purchase behavi
 
 I then performed RFM analysis to the whole dataset.
 
-![](recent.png)
+![](/img/recent.png)
 
-![](frequent.png)
+![](/img/frequent.png)
 
-![](monetary.png)
+![](/img/monetary.png)
 
 Based on their data I have labelled them as follows:    
 
@@ -80,7 +80,7 @@ Based on their data I have labelled them as follows:
 
 Approximately 70% are regular customer:
 
-![](segment.png)
+![](/img/segment.png)
 
 ## Model Building
 
@@ -98,7 +98,7 @@ As I have a labelled data now, I have tried Logistic Regression, Naibe Bayes and
 
     avg / total    0.66      0.70    0.64     28143
 
-![](logisticregression.png)
+![](/img/logisticregression.png)
 
 ### Naive Bayes
 
@@ -112,7 +112,7 @@ As I have a labelled data now, I have tried Logistic Regression, Naibe Bayes and
 
      avg / total       0.53      0.59      0.48     28143
 
-![](naivebayes.png)
+![](/img/naivebayes.png)
 
 ### Random Forest Classifier
 
@@ -126,20 +126,20 @@ As I have a labelled data now, I have tried Logistic Regression, Naibe Bayes and
 
      avg / total       0.91      0.91      0.91     28143
 
-![](randomforest.png)
+![](/img/randomforest.png)
 
 ## Model Evaluation
 ---
 
 Based on their performance I have selected Random Forest Classifier as my final model which is giving me more 90% accuracy rate.
 
-![](modelcomparison.png)
+![](/img/modelcomparison.png)
 
 ## Deployment
 ---
 After getting the model I have deployed my model using a flask application in heroku.
 
-![](deploy.png)
+![](/img/deploy.png)
 
 User can select criteria of a customer and this [application](https://find-customer-loyalty.herokuapp.com/#) will tell whether this customer will be loyal or not in future.
 
