@@ -1,3 +1,8 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio/
+---
 
 # Finding Loyalty
 
@@ -24,7 +29,7 @@ I got the data in 9 different csv. Then I loaded them in SQL Server. Where I hav
 ##  Exploratory Data Analysis
 ---
 
-While exploring the data my focus as mainly in 
+While exploring the data my focus as mainly in
 
 1. Revenue
 2. Product
@@ -52,9 +57,9 @@ There are products which people tends to buy again and again.
 ---
 RFM analysis is a customer segmentation technique that uses past purchase behavior to segment customers.
 
-    Recency (R) - Time since last purchase 
-    Frequency (F) - Total number of purchases 
-    Monetary value (M) - Total monetary value 
+    Recency (R) - Time since last purchase
+    Frequency (F) - Total number of purchases
+    Monetary value (M) - Total monetary value
 
 I then performed RFM analysis to the whole dataset.
 
@@ -72,7 +77,7 @@ Based on their data I have labelled them as follows:
     Almost Lost: 311
     Lost Customers: 411
     Lost Cheap Customers: 444
-    
+
 Approximately 70% are regular customer:
 
 ![](segment.png)
