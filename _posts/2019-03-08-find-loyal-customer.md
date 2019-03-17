@@ -1,19 +1,15 @@
 
-# Finding Loyalty
-
-Did you know it costs a business about 5-25X more to acquire a new customer than it does to sell to an existing one? Not only that, but existing customers spend 67% more than new customers. In short, customer loyalty really pays off -- and customer loyalty programs end up paying for themselves.
-
-## Problem Statement
+# Problem Statement
 ---
 Companies need to understand the customers’ data better in all aspects. Detecting similarities and differences among customers,
 predicting their behaviors, proposing better options and opportunities to customers became very important for customer-company engagement. Segmenting the customers according to their data became vital in this context. RFM (recency, frequency and monetary) values have been used for many years to identify which customers valuable for the company, which customers need promotional activities, etc.
 
-## Machine Learning Process
+# Machine Learning Process
 ---
 
 ![](method.png)
 
-##  Data Gathering
+#  Data Gathering
 ---
 I have used data of Olist, an e-commerce site of Brazil.
 
@@ -21,7 +17,7 @@ I have used data of Olist, an e-commerce site of Brazil.
 
 I got the data in 9 different csv. Then I loaded them in SQL Server. Where I have done my initial cleaning, removed null values, joined them together and prepare a final dataset to explore more.
 
-##  Exploratory Data Analysis
+#  Exploratory Data Analysis
 ---
 
 While exploring the data my focus as mainly in 
@@ -48,7 +44,7 @@ There are products which people tends to buy again and again.
 
 ![](product.png)
 
-## RFM Analysis
+# RFM Analysis
 ---
 RFM analysis is a customer segmentation technique that uses past purchase behavior to segment customers.
 
@@ -77,11 +73,11 @@ Approximately 70% are regular customer:
 
 ![](segment.png)
 
-## Model Building
+# Model Building
 
 As I have a labelled data now, I have tried Logistic Regression, Naibe Bayes and Random Forest Classifier to predict customer loyalty.
 
-### Logistic Regression
+## Logistic Regression
 
                    precision recall  f1-score  support
 
@@ -95,7 +91,7 @@ As I have a labelled data now, I have tried Logistic Regression, Naibe Bayes and
 
 ![](logisticregression.png)
 
-### Naive Bayes
+## Naive Bayes
 
                        precision recall    f1-score  support
 
@@ -109,7 +105,7 @@ As I have a labelled data now, I have tried Logistic Regression, Naibe Bayes and
 
 ![](naivebayes.png)
 
-### Random Forest Classifier
+## Random Forest Classifier
 
                        precision recall    f1-score  support
 
@@ -123,14 +119,14 @@ As I have a labelled data now, I have tried Logistic Regression, Naibe Bayes and
 
 ![](randomforest.png)
 
-## Model Evaluation
+# Model Evaluation
 ---
 
 Based on their performance I have selected Random Forest Classifier as my final model which is giving me more 90% accuracy rate.
 
 ![](modelcomparison.png)
 
-## Deployment
+# Deployment
 ---
 After getting the model I have deployed my model using a flask application in heroku.
 
@@ -138,6 +134,6 @@ After getting the model I have deployed my model using a flask application in he
 
 User can select criteria of a customer and this [application](https://find-customer-loyalty.herokuapp.com/#) will tell whether this customer will be loyal or not in future.
 
-## Source Code
+# Source Code
 ---
 Source code can be found on [Github](https://github.com/ikfaisal/find-loyal-customer.git). I look forward to hear any feedback or questions.
