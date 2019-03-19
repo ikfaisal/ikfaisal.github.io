@@ -14,10 +14,10 @@ First things first. In order for you to have a relevant conversation with your c
 
 How often have you, as a Marketing Manager, addressed the following questions:
 
-    - Who are the customers spending the most?
-    - Who are the most loyal customers coming back and placing a second, third, fourth order?
-    - Who are the newest customers?
-    - Who are those customers I am about to lose? Who are those customers I already lost?
+    Who are the customers spending the most?
+    Who are the most loyal customers coming back and placing multiple order?
+    Who are the newest customers?
+    Who are those customers I am about to lose? Who are those customers I already lost?
 
 RFM analysis goes hand in hand with customer centricity, segmentation, personalization, tailored marketing campaigns and customer lifetime value.
 
