@@ -10,8 +10,18 @@ Did you know it costs a business about 5-25X more to acquire a new customer than
 
 ## Problem Statement
 ---
-Companies need to understand the customers’ data better in all aspects. Detecting similarities and differences among customers,
-predicting their behaviors, proposing better options and opportunities to customers became very important for customer-company engagement. Segmenting the customers according to their data became vital in this context. RFM (recency, frequency and monetary) values have been used for many years to identify which customers valuable for the company, which customers need promotional activities, etc.
+First things first. In order for you to have a relevant conversation with your customers, you first need to know them.
+
+How often have you, as a Marketing Manager, addressed the following questions:
+
+  Who are the customers spending the most?
+  Who are the most loyal customers coming back and placing a second, third, fourth order?
+  Who are the newest customers?
+  Who are those customers I am about to lose? Who are those customers I already lost?
+
+RFM analysis goes hand in hand with customer centricity, segmentation, personalization, tailored marketing campaigns and customer lifetime value.
+
+Companies need to understand the customers’ data better in all aspects. Detecting similarities and differences among customers, predicting their behaviors, proposing better options and opportunities to customers became very important for customer-company engagement. Segmenting the customers according to their data became vital in this context. RFM (recency, frequency and monetary) values have been used for many years to identify which customers valuable for the company, which customers need promotional activities, etc.
 
 ## Machine Learning Process
 ---
